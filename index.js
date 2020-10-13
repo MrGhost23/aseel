@@ -11,7 +11,6 @@ client.db = require("quick.db");
 client.commands = new Discord.Collection();
 client.cooldown = new Discord.Collection();
 client.config = {
-    TOKEN: "NzY1MDE0NDI3MjA3NDY3MDA5.X4OpNA.1QSCog0p7t0WVJgjTz5qY5i4J7A",
     prefix: "!",
     cooldown: 15000
 };
@@ -61,4 +60,4 @@ function xp(message) {
     }
 }
 
-client.login(client.config.TOKEN);
+client.login(process.env.token);
