@@ -5,7 +5,7 @@ const fs = require("fs");
 client.on('ready', () => {
     console.log("Connected as " + client.user.tag)
     client.user.setActivity("With MrGhost's Heart")
-})	
+})
 
 client.db = require("quick.db");
 client.commands = new Discord.Collection();
