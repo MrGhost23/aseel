@@ -1,0 +1,23 @@
+{
+  "name": "Aseel",
+  "version": "1.0.0",
+  "description": "making love with mrghost.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "MrGhost",
+  "license": "MIT",
+  "engines": {
+    "node": "12.x"
+  },
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "hastebin-gen": "^2.0.5",
+    "quick.db": "^7.1.1",
+    "canvacord": "^5.0.4",
+    "node-fetch": "^2.6.0",
+    "twemoji-parser": "^13.0.0",
+    "jumble-words": "^1.0.1"
+  }
+}
