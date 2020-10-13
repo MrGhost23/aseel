@@ -12,11 +12,11 @@ module.exports.run = (client, message, args) => {
      });
     
     // part two
-     fetch(`https://some-random-api.ml/chatbot?message=${encodeURIComponent(mesg)}`)
-     .then(res => res.json())
-     .then(data => {
-        message.channel.send(data.response);
-     });
+    // fetch(`https://some-random-api.ml/chatbot?message=${encodeURIComponent(mesg)}`)
+    // .then(res => res.json())
+    // .then(data => {
+    //    message.channel.send(data.response);
+    // });
 }
 
 module.exports.help = {
