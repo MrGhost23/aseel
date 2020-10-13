@@ -17,11 +17,11 @@ client.config = {
 };
 
 // Load Commands
-fs.readdir("/commands/", (err, files) => {
+fs.readdir("./commands/", (err, files) => {
     if (err) return console.error(err);
     files.forEach(f => {
         if (!f.endsWith(".js")) return;
-        let command = require(`/commands/${f}`);
+        let command = require(`./commands/${f}`);
         client.commands.set(command.help.name, command);
     });
 });
